@@ -1,0 +1,26 @@
+    body{
+        font-family: Arial, sans-serif;
+        background-color: white;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 90vh;
+    }
+    .contenedor{
+        background-color:beige;
+        padding: 70px;
+    }
+    .campo{
+        margin-bottom: 15px;
+    }
+    .error{
+        color: red;
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    .exito{
+        color: green;
+        margin-top: 5px;
+        font-size: 14px;
+    }

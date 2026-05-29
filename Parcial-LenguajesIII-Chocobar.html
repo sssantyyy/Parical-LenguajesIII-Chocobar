@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head> 
+    <meta charset="UTF-8">
+    <title>Inscripción a curso- Chocobar, Santiago Daniel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Formulario de inscripción</h1>
+        <h2>Completar los datos solicitados</h2>
+        <div class="campo">
+            <label for="nombreApellido">Ingresar Nombre y Apellido:</label>
+            <input type="text" id="nombreApellido" placeholder="Ej:Juan Perez">
+            <div id="errorNom" class="error"></div>
+        </div>
+        <div class="campo">
+            <label for="dni">Ingrersar DNI:</label>
+            <input type="text" id="dni" placeholder="Ej: 40123456">
+            <div id="errorDni" class="error"></div>
+        </div>
+
+        <div class="campo">
+            <label for="fechaNac">Ingresar Fecha de Nacimiento:</label>
+            <input type="date" id="fechaNac">
+            <div id="errorFecha" class="error"></div>
+        </div>
+
+        <button onclick="enviarFormulario()">Enviar</button>
+        <button onclick="hacerPreguntas()">Preguntas</button>
+        <div id="mensajeExito"></div>
+        <div id="respuestasPreguntas"></div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
